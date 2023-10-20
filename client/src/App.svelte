@@ -1,12 +1,10 @@
 <script lang="ts">
-	import Counter from "./lib/Counter.svelte";
+	import Quiz from "./lib/Quiz.svelte";
 </script>
 
 <main>
-	<h1>Svelte golang</h1>
-
 	<div class="card">
-		<Counter />
+		<Quiz />
 	</div>
 </main>
 
