@@ -110,7 +110,7 @@
 	{#each incorrectAnswers as answers}
 		<div class="card">
 			<div>{answers.question}</div>
-			<div>Givern answer: {answers.givenAnswer}</div>
+			<div>Your answer: {answers.givenAnswer}</div>
 			<div>Correct answer: {answers.correctAnswer}</div>
 		</div>
 	{/each}
